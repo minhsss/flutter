@@ -1,0 +1,26 @@
+https://api.flutter.dev/
+
+Importing a Library
+Framework Libraries
+Libraries in the "Libraries" section below (or in the left navigation) are part of the core Flutter framework and are imported using 'package:flutter/<library>.dart', like so:
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+Dart Libraries
+Libraries in the "Dart" section exist in the 'dart:' namespace and are imported using 'dart:<library>', like so:
+
+import 'dart:async';
+import 'dart:ui';
+Except for 'dart:core', you must import a Dart library before you can use it.
+
+Other Libraries
+Libraries in other sections are supporting libraries that ship with Flutter. They are organized by package and are imported using 'package:<package>/<library>.dart', like so:
+
+import 'package:flutter_test/flutter_test.dart';
+import 'package:file/local.dart';
+
+Finding Other Libraries
+Flutter has a rich community of packages that have been contributed by the open-source community. You can browse those packages at pub.dev/flutter
+
+
+ 
